@@ -6,9 +6,10 @@ pip install svgwrite
 
 # Example Usage
 *code can be found/run in example.py*
-`import led_sign
+```
+import led_sign
 import standard_font
 standard_font.validate_font()
 sign_gen = led_sign.LEDSign(standard_font)
-sign_gen.generate_sign("A Test", "test.svg")`
-
+sign_gen.generate_sign("A Test", "test.svg")
+```
